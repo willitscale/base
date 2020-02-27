@@ -11,5 +11,4 @@ RUN apt-get update; \
         zip \
         git \
         curl \
-        openssl \
-        ca-certificates
+        openssl
