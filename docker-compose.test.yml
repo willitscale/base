@@ -3,4 +3,6 @@ version: "2"
 services:
     sut:
         build: .
-        command: run_tests.sh
+        command: /tests/run_tests.sh
+        volumes:
+            - ./run_tests.sh:/tests/run_tests.sh
